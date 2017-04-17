@@ -1,0 +1,7 @@
+syntax = "proto2";
+message User {
+  required int32 uid = 1;        // 用户唯一标识
+  required string nickname = 2;  // 用户昵称
+  required int32 age = 3;        // 用户年龄
+}
+
